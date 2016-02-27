@@ -1,7 +1,0 @@
-{
-	"sEntity": "Theme",
-	"sId": "alliandertheme",
-	"sLabel": "Alliander Thema",
-	"oExtends": "UI5.sap/me.sap_bluecrystal",
-	"sTextDirections": "LTR"
-}
