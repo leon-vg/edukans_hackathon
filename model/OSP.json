@@ -1,0 +1,126 @@
+[
+	{
+		"ID": "Bemmel",
+		"City": "Bemmel",
+		"Address": "Transportstraat 3",
+		"Email" : "logistiek.osp.bemmel@alliander.com",
+		"NWP_IS" : 240350074
+	},
+	{
+		"ID": "Borculo",
+		"City": "Borculo",
+		"Address": "Kamerlingh Onnestraat 2",
+		"Email" : "logistiek.osp.borculo@alliander.com",
+		"NWP_IS": 240350069
+	},
+	{
+		"ID": "Duiven",
+		"City": "Duiven",
+		"Address": "Dijkgraaf 4",
+		"Email" : "logistiek.osp.duiven@alliander.com",
+		"NWP_IS": 240350073
+	},
+	{
+		"ID": "Ermelo",
+		"City": "Ermelo",
+		"Address": "Oude Telgterweg 169",
+		"Email" : "logistiek.osp.ermelo@alliander.com",
+		"NWP_IS": 240349856
+	},
+	{
+		"ID": "Tiel",
+		"City": "Tiel",
+		"Address": "Staartsestraat 2",
+		"Email" : "logistiek.osp.tiel@alliander.com",
+		"NWP_IS": 240350075
+	},
+	{
+		"ID": "Wageningen",
+		"City": "Wageningen",
+		"Address": "Droevendaalsesteeg 7",
+		"Email" : "logistiek.osp.wageningen@alliander.com",
+		"NWP_IS": 240349857
+	},
+	{
+		"ID": "Winterswijk",
+		"City": "Winterswijk",
+		"Address": "Koningsweg 4",
+		"Email" : "logistiek.osp.winterswijk@alliander.com",
+		"NWP_IS": 240350070
+	},
+	{
+		"ID": "Franeker",
+		"City": "Franeker",
+		"Address": "De Wieken 19",
+		"Email" : "logistiek.osp.franeker@alliander.com",
+		"NWP_IS": 240349847
+	},
+	{
+		"ID": "Lemmer",
+		"City": "Lemmer",
+		"Address": "Taanderij 1 (box 5 en 7)",
+		"Email" : "logistiek.osp.lemmer@alliander.com",
+		"NWP_IS": 240353426
+	},
+	{
+		"ID" : "Lisse",
+		"City": "Lisse",
+		"Address": "Vennestraat 28",
+		"Email" : "logistiek.osp.lisse@alliander.com",
+		"NWP_IS": 240350065
+	},
+	{
+		"ID": "Aalsmeer",
+		"City": "Aalsmeer",
+		"Address": "Witteweg 48",
+		"Email" : "logistiek.osp.aalsmeer@alliander.com",
+		"NWP_IS": 240350067
+	},
+	{
+		"ID" : "Zwaag",
+		"City": "Zwaag",
+		"Address": "De Corantijn 11 D",
+		"Email" : "logistiek.osp.zwaag@alliander.com",
+		"NWP_IS": 240349843
+	},
+	{
+		"ID" : "Schagen",
+		"City": "Schagen",
+		"Address": "De Langeloop 17",
+		"Email" : "logistiek.osp.schagen@alliander.com",
+		"NWP_IS": 240349842
+	},
+	{
+		"ID" : "Westknollendam",
+		"City": "West Knollendam",
+		"Address": "Fabriekweg 4",
+		"Email" : "logistiek.osp.westknollendam@alliander.com",
+		"NWP_IS": 240349844
+	},
+	{
+		"ID": "Terschelling",
+		"City": "Terschelling",
+		"Email" : "logistiek.osp.terschelling@alliander.com",
+		"NWP_IS": 240349854
+	},
+	{
+		"ID": "Vlieland",
+		"City": "Vlieland",
+		"Email" : "logistiek.osp.vlieland@alliander.com",
+		"NWP_IS": 240349853
+	},
+	{
+		"ID": "Texel",
+		"City": "Texel",
+		"Address": "Reijer Keijserstraat 5",
+		"Email" : "logistiek.osp.texel@alliander.com",
+		"NWP_IS": 240349845
+	},
+	{
+		"ID": "Veenwouden",
+		"City": "Veenwouden",
+		"Address": "Zuivelstraat",
+		"Email" : "logistiek.osp.veenwouden@alliander.com",
+		"NWP_IS": 240349848
+	}
+]

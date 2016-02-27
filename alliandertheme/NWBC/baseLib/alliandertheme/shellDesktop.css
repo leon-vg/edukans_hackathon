@@ -1,0 +1,1083 @@
+/**
+* Copyright (c) 2013 SAP AG, All Rights Reserved
+*
+* Theming Engine 1.11.0
+* data:{"Path": "NWBC.baseLib.alliandertheme.shellDesktop", "PathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css", "IECssRuleLimitFiles": [], "Version": { "Build":"3.6.25.44.20151218155445", "Source": "3.6.25.44.0", "Engine": "1.11.0"}}
+*/
+
+.sapThemeMetaData-NWBC-baseLib{background-image: url('data:text/plain;utf-8,{"Path": "NWBC.baseLib.alliandertheme.shellDesktop", "PathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css", "IECssRuleLimitFiles": [], "Version": { "Build":"3.6.25.44.20151218155445", "Source": "3.6.25.44.0", "Engine": "1.11.0"}}');}
+
+/**
+* Base.baseLib.baseTheme.base
+* 10.30.1.236911.0
+*/
+
+
+/**
+* NWBC.baseLib.baseTheme.common
+* 3.6.25.44.0
+*/
+
+.nwbc-branding-image-div {
+  width: 68px;
+  height: 33px;
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-image: url('../../../Base/baseLib/alliandertheme/img/misc/sapCompanyLogo.png');
+}
+
+/**
+* NWBC.baseLib.baseTheme.shellDesktop
+* 3.6.25.44.0
+*/
+
+.sapWindowBackgroundImage {
+  background-image: none;
+}
+.sapWindowHeaderBackgroundColor {
+  color: #f8f8f8;
+}
+.sapWindowTitleShadowColor {
+  color: #fff;
+}
+.sapWindowMenuButtonShadowColor {
+  color: #f8f8f8;
+}
+.sapWindowButtonsShadowColor {
+  color: #f8f8f8;
+}
+.sapWindowBackgroundColor {
+  color: #f8f8f8;
+}
+.sapWindowBorderColor {
+  color: #444444;
+}
+.sapWindowMenuIconColor {
+  color: #7f7f7f;
+}
+.sapWindowMenuButtonFillColor {
+  color: #EFEFEF;
+}
+.sapWindowMenuButtonBorderColor {
+  color: #7f7f7f;
+  opacity: 0.2;
+}
+.sapWindowButtonBorderColor {
+  color: #7f7f7f;
+  opacity: 0.2;
+}
+.sapWindowButtonHoverFillColor {
+  color: #f8f8f8;
+  opacity: 0.3;
+}
+.sapWindowButtonDownFillColor {
+  color: #f8f8f8;
+}
+.sapWindowMaximizeButtonIconStandard {
+  color: #7f7f7f;
+}
+.sapWindowMaximizeButtonIconHover {
+  color: #7f7f7f;
+}
+.sapWindowMaximizeButtonIconDown {
+  color: #7f7f7f;
+}
+.sapWindowMaximizeButtonHoverFillColor {
+  color: #f8f8f8;
+}
+.sapWindowMinimizeButtonIconStandard {
+  color: #7f7f7f;
+}
+.sapWindowMinimizeButtonIconHover {
+  color: #7f7f7f;
+}
+.sapWindowMinimizeButtonIconDown {
+  color: #7f7f7f;
+}
+.sapWindowMinimizeButtonHoverFillColor {
+  color: #f8f8f8;
+}
+.sapWindowRestoreButtonIconStandard {
+  color: #7f7f7f;
+}
+.sapWindowRestoreButtonIconHover {
+  color: #7f7f7f;
+}
+.sapWindowRestoreButtonIconDown {
+  color: #7f7f7f;
+}
+.sapWindowRestoreButtonHoverFillColor {
+  color: #f8f8f8;
+}
+.sapWindowCloseButtonIconStandard {
+  color: #7f7f7f;
+}
+.sapWindowCloseButtonIconHover {
+  color: #CB4D2C;
+}
+.sapWindowCloseButtonIconDown {
+  color: #CB4D2C;
+}
+.sapWindowCloseButtonHoverFillColor {
+  color: #f8f8f8;
+}
+.sapDialogButtonAreaBackgroundColor {
+  color: #666666;
+}
+.sapDialogButtonAreaBorderColor {
+  color: #666666;
+}
+.sapDialogButtonAreaProgressIndicatorColor {
+  color: #7FBEE2;
+}
+.sapMenuItemHoverBackgroundColor {
+  color: #E5F2F9;
+}
+.sapMenuSeparatorColor {
+  color: #c8c8c8;
+}
+.sapMenuPopupBackground {
+  color: #ffffff;
+}
+.sapMenuPopupBorderColor {
+  color: transparent;
+}
+.sapCascadingMenuArrowIconFillColor {
+  color: #666666;
+}
+.sapCascadingMenuArrowIconHoverFillColor {
+  color: #666;
+}
+.sapCascadingMenuArrowIconDisabledFillColor {
+  color: #ccc;
+}
+.sapMenuCheckIconFillColor {
+  color: #666666;
+}
+.sapMenuCheckIconHoverFillColor {
+  color: #666;
+}
+.sapMenuCheckIconDisabledFillColor {
+  color: #ccc;
+}
+.sapTabIconGlowColor {
+  color: #7DB43C;
+}
+.sapIconButtonBackground {
+  color: #ffffff;
+}
+.sapIconButtonBorderColor {
+  color: #bfbfbf;
+}
+.sapOverflowIconButtonBackground {
+  color: #ffffff;
+}
+.sapOverflowIconButtonBorderColor {
+  color: #bfbfbf;
+}
+.sapOverflowButtonIconFillColor {
+  color: #666666;
+}
+.sapOverflowButtonIconFillColorHover {
+  color: #666666;
+}
+.sapOverflowButtonIconFillColorDisabled {
+  color: #999;
+}
+.sapNewTabIconButtonBackground {
+  color: #ffffff;
+}
+.sapNewTabIconButtonBorderColor {
+  color: #bfbfbf;
+}
+.sapNewTabButtonIconFillColor {
+  color: #666666;
+}
+.sapNewTabButtonIconFillColorHover {
+  color: #666666;
+}
+.sapNewTabButtonIconFillColorDisabled {
+  color: #999;
+}
+.sapTabsBackgroundBorderColor {
+  color: #ADADAD;
+}
+.sapTabsBottomLineColor {
+  color: #ADADAD;
+}
+.sapTabsBackground {
+  color: rgba(255,255,255,0.69);
+}
+.sapTabsHoverBackground {
+  color: #ffffff;
+}
+.sapTabSelectedTopLineColor {
+  color: #0B83C8;
+}
+.sapTabSelectedBackgroundGradientColor1 {
+  color: #ffffff;
+  opacity: 1.0;
+}
+.sapTabSelectedBackgroundGradientColor2 {
+  color: #ffffff;
+  opacity: 1.0;
+}
+.sapTabSelectedBotomLineColor {
+  color: #ffffff;
+  opacity: 1.0;
+}
+.sapTabCloseButtonBackground {
+  color: #fdfdfd;
+}
+.sapTabCloseButtonBorder {
+  color: #bfbfbf;
+}
+.sapTabCloseButtonIconColor {
+  color: #666666;
+}
+.sapTabCloseButtonIconColorHover {
+  color: Black;
+}
+.sapTabLoadingAnimationColor {
+  color: #666666;
+}
+.sapLaunchBarBackground {
+  color: #f8f8f8;
+  opacity: 1.0;
+}
+.sapLaunchBarToggleButtonHoverBackground {
+  color: #666666;
+}
+.sapFavoritesToolBarButtonShapeColor {
+  color: #666666;
+}
+.sapFavoritesToolBarButtonShapeCheckedColor {
+  color: #ffffff;
+}
+.sapFavoritesToolBarButtonShapeDisabledColor {
+  color: #999;
+}
+.sapFavoritesToolBarButtonShapeCheckedDisabledColor {
+  color: #999;
+}
+.sapNavigationPanelToolBarButtonShapeColor {
+  color: #666666;
+}
+.sapNavigationPanelToolBarButtonShapeCheckedColor {
+  color: #ffffff;
+}
+.sapNavigationPanelToolBarButtonShapeDisabledColor {
+  color: #999;
+}
+.sapNavigationPanelToolBarButtonShapeCheckedDisabledColor {
+  color: #999;
+}
+.sapToolBarButtonDeviderColor {
+  color: #bfbfbf;
+}
+.sapToolbarBottomLine1Color {
+  color: #333;
+}
+.sapToolbarBottomLine2Color {
+  color: #BFBFBF;
+}
+.sapToolbarBottomLine3Color {
+  color: white;
+}
+.sapControlBorderColor {
+  color: #bfbfbf;
+}
+.sapControlBackground {
+  color: #ffffff;
+}
+.sapControlBorderColorDisabled {
+  color: #dedede;
+}
+.sapControlBackgroundDisabled {
+  color: #f7f7f7;
+}
+.sapCaretBackgroundColor {
+  color: #ffffff;
+}
+.sapControlHoverBackgroundColor {
+  color: #f8f8f8;
+}
+.sapLaunchBoxBorderColor {
+  color: #BFBFBF;
+}
+.sapLaunchBoxOutlineBorderColor {
+  color: #FFFFFF;
+}
+.sapLaunchBoxMagnifierIconColor {
+  color: #666666;
+}
+.sapLaunchBoxBackgroundColor {
+  color: #FFFFFF;
+}
+.sapNavigationPanelTreeSplitterColor {
+  color: #bfbfbf;
+}
+.sapLeftPanelBackground {
+  color: #ffffff;
+}
+.sapLeftPanelTreeItemHoverBackground {
+  color: #7DB43C;
+}
+.sapLeftPanelTreeItemHoverBackgroundNew {
+  color: #f0f0f0;
+}
+.sapLeftPanelTreeItemSelectedBackground {
+  color: #7DB43C;
+}
+.sapLeftPanelTreeItemDeviderColor {
+  color: #ededed;
+}
+.sapLeftPanelToolBarButtonTopLine {
+  color: transparent;
+}
+.sapLeftPanelTreeItemArrowIconColor {
+  color: #666666;
+}
+.sapLeftPanelTreeItemArrowIconColorDisabled {
+  color: #ccc;
+}
+.sapLeftPanelTreeItemArrowIconColorHoverSelection {
+  color: #ffffff;
+}
+.sapLeftPanelTreeItemArrowIconColorHoverSelection2 {
+  color: #666666;
+}
+.sapLeftPanelTreeItemArrowIconColorHover {
+  color: #666;
+}
+.sapLeftPanelTreeItemArrowIconColorSelection {
+  color: #666;
+}
+.sapLeftPanelTreeItemBulletPointIconColor {
+  color: #666666;
+}
+.sapLeftPanelTreeItemBulletPointIconColorDisabled {
+  color: #ccc;
+}
+.sapLeftPanelTreeItemBulletPointIconColorHoverSelection {
+  color: #ffffff;
+}
+.sapLeftPanelTreeItemBulletPointIconColorHover {
+  color: #666;
+}
+.sapLeftPanelTreeItemBulletPointIconColorSelection {
+  color: #666;
+}
+.sapAddToFavoritesButtonIconColor {
+  color: #666666;
+}
+.sapAddToFavoritesButtonIconColorDisabled {
+  color: #999;
+}
+.sapAddToFavoritesButtonBorderColor {
+  color: #bfbfbf;
+}
+.sapAddToFavoritesButtonBackground {
+  color: #ffffff;
+}
+.sapRightPanelHeaderBackground {
+  color: #ffffff;
+}
+.sapRightPanelHeaderBorderColor {
+  color: #bfbfbf;
+}
+.sapRightPanelToggleButtonHoverBackground {
+  color: #666666;
+}
+.sapRightPanelSplitterBackground {
+  color: #bfbfbf;
+}
+.sapRightPanelSplitterBorderColor {
+  color: #bfbfbf;
+}
+.sapRightPanelSplitterIconColor {
+  color: #666666;
+}
+.sapRightPanelSplitterIconColorHover {
+  color: #ffffff;
+}
+.sapRightPanelAppselectorMenuDownIconColor {
+  color: #666666;
+}
+.sapRightPanelPinButtonIconColor {
+  color: #666666;
+}
+.sapRightPanelPinButtonIconColorDisabled {
+  color: #999;
+}
+.sapRightPanelPinButtonBorderColor {
+  color: #bfbfbf;
+}
+.sapRightPanelPinButtonBackground {
+  color: #ffffff;
+}
+.sapRightPanelRefreshButtonIconColor {
+  color: #666666;
+}
+.sapRightPanelRefreshButtonIconColorDisabled {
+  color: #999;
+}
+.sapRightPanelRefreshButtonBorderColor {
+  color: #bfbfbf;
+}
+.sapRightPanelRefreshButtonBackground {
+  color: #ffffff;
+}
+.sapScrollBarBackground {
+  color: #ffffff;
+}
+.sapScrollBarDisabledBackground {
+  color: #ffffff;
+}
+.sapScrollBarButtonBorderColor {
+  color: #ffffff;
+}
+.sapScrollBarButtonRegularBackground {
+  color: #ffffff;
+}
+.sapScrollBarButtonHoverBackground {
+  color: #7DB43C;
+}
+.sapScrollBarButtonDownBackground {
+  color: #666666;
+}
+.sapScrollBarThumbBackgroundRegular {
+  color: #B8C2CC;
+}
+.sapScrollBarThumbBackgroundHover {
+  color: #7DB43C;
+}
+.sapHorizontalScrollBarBackground {
+  color: #ffffff;
+}
+.sapScrollBarButtonArrowIconColor {
+  color: #666666;
+}
+.sapScrollBarButtonArrowIconColorHover {
+  color: #ffffff;
+}
+.sapScrollBarButtonArrowIconColorDown {
+  color: #ffffff;
+}
+.sapScrollBarGripIconColor {
+  color: #ffffff;
+}
+.sapScrollBarGripIconColorHover {
+  color: #ffffff;
+}
+.sapButtonBorderColor {
+  color: #C8C8C8;
+}
+.sapButtonBorderColorHover {
+  color: #C8C8C8;
+}
+.sapButtonBorderColorPressed {
+  color: #4f4f4f;
+}
+.sapButtonBorderColorDisabled {
+  color: #C8C8C8;
+}
+.sapButtonBackground {
+  color: #FFFFFF;
+}
+.sapButtonBackgroundHover {
+  color: #F2F2F2;
+}
+.sapButtonBackgroundPressed {
+  color: #828282;
+}
+.sapButtonInnerBorderColor {
+  color: #FFFFFF;
+}
+.sapButtonInnerBorderColorHover {
+  color: #F0F0F0;
+}
+.sapButtonInnerBorderColorPressed {
+  color: #828282;
+}
+.sapButtonDisabledOverlay {
+  color: #FFFFFF;
+  opacity: 0.46;
+}
+.sapCheckBoxIconBorderColor {
+  color: #bfbfbf;
+}
+.sapCheckBoxIconColor {
+  color: #7DB43C;
+}
+.sapCheckBoxIconBackground {
+  color: #ffffff;
+}
+.sapCheckBoxIconHoverBorder {
+  color: #7DB43C;
+}
+.sapCheckBoxDisabledOverlay {
+  color: #FFFFFF;
+  opacity: 0.29;
+}
+.sapCheckBoxReadOnlyBackground {
+  color: #f7f7f7;
+}
+.sapCheckBoxDisabledBorderColor {
+  color: #dedede;
+}
+.sapCheckBoxDisabledCheckIcon {
+  color: #ccc;
+}
+.sapDropDownHoverColor {
+  color: #7DB43C;
+}
+.sapDropDownDownColor {
+  color: #7DB43C;
+}
+.sapDropDownTriangleIconColor {
+  color: #666666;
+}
+.sapDropDownBorderColor {
+  color: #bfbfbf;
+}
+.sapDropDownBorderHoverColor {
+  color: #7DB43C;
+}
+.sapDropDownItemHoverBackgroundColor {
+  color: #7DB43C;
+}
+.sapDropDownPopupBackground {
+  color: #ffffff;
+}
+.sapDropDownPopupBorderColor {
+  color: Transparent;
+}
+.sapSliderTrackBackground {
+  color: #bfbfbf;
+}
+.sapSliderTrackValueBackground {
+  color: #7DB43C;
+}
+.sapSliderTrackValueBackgroundDisabled {
+  color: #999999;
+}
+.sapSliderThumbBorderColor {
+  color: #888888;
+}
+.sapSliderThumbBorderColorHover {
+  color: #7DB43C;
+}
+.sapSliderThumbFillColor {
+  color: #ffffff;
+}
+.sapSliderThumbFillColorHover {
+  color: #7DB43C;
+}
+.sapListBoxItemHoverBackgroundColor {
+  color: #7DB43C;
+}
+.sapListBoxItemHoverBackgroundColorNew {
+  color: #f0f0f0;
+}
+.sapListBoxItemSelectionBackgroundColor {
+  color: #7DB43C;
+}
+.sapInputFieldBackground {
+  color: #ffffff;
+}
+.sapInputFieldBorderColor {
+  color: #bfbfbf;
+}
+.sapInputFieldBorderColorHover {
+  color: #7DB43C;
+}
+.sapInputFieldBackgroundDisabled {
+  color: #f7f7f7;
+}
+.sapInputFieldBorderColorDisabled {
+  color: #dedede;
+}
+.sapInputFieldBorderColorReadOnly {
+  color: #bfbfbf;
+}
+.sapInputFieldBackgroundReadOnly {
+  color: #f7f7f7;
+}
+.sapRequiredFieldStarColor {
+  color: #7DB43C;
+}
+.sapInputFieldBackgroundWarning {
+  color: #fffcb5;
+}
+.sapInputFieldBorderColorWarning {
+  color: #f0ab00;
+}
+.sapInputFieldBackgroundWarningHover {
+  color: #fffcb5;
+}
+.sapInputFieldBorderColorWarningHover {
+  color: #7DB43C;
+}
+.sapInputFieldBackgroundWarningReadOnly {
+  color: #fffcb5;
+}
+.sapInputFieldBorderColorWarningReadOnly {
+  color: #f0ab00;
+}
+.sapInputFieldBackgroundError {
+  color: #f8ddde;
+}
+.sapInputFieldBorderColorError {
+  color: #d31e24;
+}
+.sapInputFieldBackgroundErrorHover {
+  color: #f8ddde;
+}
+.sapInputFieldBorderColorErrorHover {
+  color: #7DB43C;
+}
+.sapInputFieldBackgroundErrorReadOnly {
+  color: #f7f7f7;
+}
+.sapInputFieldBorderColorErrorReadOnly {
+  color: #d31e24;
+}
+.sapInputFieldSelectionColor {
+  color: #d31e24;
+}
+.sapToolBarBackground {
+  color: #c8c8c8;
+}
+.sapToolBarBorderColor {
+  color: #c8c8c8;
+}
+.sapCanvasBackground {
+  color: #f8f8f8;
+}
+.sapTableBorderColor {
+  color: #bfbfbf;
+}
+.sapTableBackground {
+  color: #ffffff;
+}
+.sapTableHeaderBackground {
+  color: #f8f8f8;
+}
+.sapTableLeadSelectionColor1 {
+  color: #d1e9f4;
+}
+.sapTableLeadSelectionColor2 {
+  color: #7DB43C;
+}
+.sapTableBackgroundHoverColor {
+  color: #f0f0f0;
+}
+.sapTableHeaderDownBackground {
+  color: #797979;
+}
+.sapTableHeaderHoverBackground {
+  color: #f0f0f0;
+}
+.sapTableGridLinesColor {
+  color: #dedede;
+}
+.sapWindowTitle {
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: Bold;
+  color: #000000;
+}
+.sapWindowMenu {
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  color: #000000;
+}
+.sapMenuItem {
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  color: #000000;
+}
+.sapMenuItemTextColorHover {
+  color: #000;
+}
+.sapMenuItemTextColorDisabled {
+  color: #999999;
+}
+.sapTabs {
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  color: #000000;
+}
+.sapTabsSelected {
+  font-weight: Bold;
+}
+.sapLaunch {
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+}
+.sapLaunchCategoryTextColor {
+  color: #666666;
+}
+.sapLaunchInitialTextColor {
+  color: #8b8f96;
+}
+.sapLeftNavigationPanelTree {
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  color: #000000;
+}
+.sapLeftNavigationPanelTree2TextColor {
+  color: #7DB43C;
+}
+.sapLeftNavigationPanelTreeTextColorHover {
+  color: #fff;
+}
+.sapLeftNavigationPanelTreeTextColorHoverNew {
+  color: #000;
+}
+.sapLeftNavigationPanelTreeTextColorSelection {
+  color: #fff;
+}
+.sapLeftNavigationPanelWorkCenterTitle {
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000;
+}
+.sapRightPanelHeader {
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000;
+}
+.sapButton {
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  color: #000000;
+}
+.sapButtonTextColorHover {
+  color: #fff;
+}
+.sapButtonTextColorDisabled {
+  color: #999999;
+}
+.sapControl {
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  color: #000000;
+}
+.sapControlTextColorDisabled {
+  color: #999999;
+}
+.sapDialogCategory {
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: Bold;
+  color: #000000;
+}
+.sapLabel {
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  color: #000000;
+}
+.sapCheckBox {
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  color: #000000;
+}
+.sapCheckBoxTextColorReadOnly {
+  color: #999999;
+}
+.sapCheckBoxTextColorDisabled {
+  color: #999999;
+}
+.sapDropDown {
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  color: #000000;
+}
+.sapDropDownTextColorHover {
+  color: #fff;
+}
+.sapInputField {
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  color: #000000;
+}
+.sapInputFieldTextColorReadOnly {
+  color: #999999;
+}
+.sapInputFieldTextColorDisabled {
+  color: #999999;
+}
+.sapMessagePopup {
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  color: #000000;
+}
+.sapListBox {
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  color: #000000;
+}
+.sapListBoxTextColorHover {
+  color: #fff;
+}
+.sapListBoxTextColorHoverNew {
+  color: #000000;
+}
+.sapListBoxTextColorSelection {
+  color: #fff;
+}
+.sapListBoxTextColorDisabled {
+  color: #999999;
+}
+.sapMessageDialog {
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  color: #000000;
+}
+.sapTable {
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  color: #000000;
+}
+.sapTableHeaderTextColorHover {
+  color: #fff;
+}
+.sapTableHeaderTextColor {
+  color: #000000;
+}
+.sapPictogramBrandColor {
+  color: #7DB43C;
+}
+.sapPictogramDarkColor {
+  color: #007CC0;
+}
+.sapPictogramLightColor {
+  color: #007CC0;
+}
+.sapPictogramBorderColor {
+  color: #007CC0;
+}
+.sapPictogramBackgroundColor {
+  color: #ffffff;
+}
+.sapTabIconBrandColor {
+  color: #7DB43C;
+}
+.sapTabIconDarkColor {
+  color: #007CC0;
+}
+.sapTabIconLightColor {
+  color: #007CC0;
+}
+.sapTabIconBorderColor {
+  color: #007CC0;
+}
+.sapTabIconBackgroundColor {
+  color: #ffffff;
+}
+
+/**
+* Base.baseLib.sap_goldreflection.base
+* 10.30.1.236911.0
+*/
+
+
+/**
+* NWBC.baseLib.sap_goldreflection.common
+* 3.6.25.44.0
+*/
+
+
+/**
+* NWBC.baseLib.sap_goldreflection.shellDesktop
+* 3.6.25.44.0
+*/
+
+.sapWindowBorderColorActive {
+  color: #007CC0;
+}
+.sapWindowBorderColorInactive {
+  color: #005A8C;
+}
+
+/**
+* Base.baseLib.sap_bluecrystal.base
+* 10.30.1.236911.0
+*/
+
+
+/**
+* NWBC.baseLib.sap_bluecrystal.common
+* 3.6.25.44.0
+*/
+
+
+/**
+* NWBC.baseLib.sap_bluecrystal.shellDesktop
+* 3.6.25.44.0
+*/
+
+.sapBaseThemeType {
+  background-image: "BlueCrystal";
+  color: black;
+}
+.sapWindowMenuButtonBorderColor {
+  color: #7f7f7f;
+}
+.sapWindowButtonBorderColor {
+  color: #ffffff;
+  opacity: 1.0;
+}
+.sapWindowButtonDownFillColor {
+  color: #ACACAC;
+}
+.sapWindowMaximizeButtonIconStandard {
+  color: #7f7f7f;
+}
+.sapWindowMaximizeButtonIconHover {
+  color: #6b6b6b;
+}
+.sapWindowMaximizeButtonIconDown {
+  color: #ffffff;
+}
+.sapWindowMaximizeButtonHoverFillColor {
+  color: #E0F1E7;
+}
+.sapWindowMinimizeButtonIconStandard {
+  color: #7f7f7f;
+}
+.sapWindowMinimizeButtonIconHover {
+  color: #6b6b6b;
+}
+.sapWindowMinimizeButtonIconDown {
+  color: #ffffff;
+}
+.sapWindowMinimizeButtonHoverFillColor {
+  color: #F9F7D3;
+}
+.sapWindowRestoreButtonIconStandard {
+  color: #7f7f7f;
+}
+.sapWindowRestoreButtonIconHover {
+  color: #6b6b6b;
+}
+.sapWindowRestoreButtonIconDown {
+  color: #ffffff;
+}
+.sapWindowRestoreButtonHoverFillColor {
+  color: #E0F1E7;
+}
+.sapWindowCloseButtonIconStandard {
+  color: #7f7f7f;
+}
+.sapWindowCloseButtonIconHover {
+  color: #6b6b6b;
+}
+.sapWindowCloseButtonIconDown {
+  color: #ffffff;
+}
+.sapWindowCloseButtonHoverFillColor {
+  color: #FBDFDF;
+}
+.sapTabIconGlowColor {
+  color: #7FBEE2;
+}
+.sapToolBarBackground {
+  color: #f8f8f8;
+}
+.sapToolBarBorderColor {
+  color: #f8f8f8;
+}
+.sapLeftPanelTreeItemSelectedBackground {
+  color: #E5F2F9;
+}
+.sapLeftNavigationPanelTreeTextColorSelection {
+  color: #000;
+}
+.sapButtonBorderColorHover {
+  color: #7FBEE2;
+}
+.sapButtonBackgroundHover {
+  color: #D2D2D2;
+}
+.sapDropDownItemHoverBackgroundColor {
+  color: #E5F2F9;
+}
+.sapDropDownTextColorHover {
+  color: #000;
+}
+.sapListBoxItemSelectionBackgroundColor {
+  color: #E5F2F9;
+}
+.sapListBoxTextColorSelection {
+  color: #000;
+}
+.sapTableLeadSelectionColor2 {
+  color: #E5F2F9;
+}
+.sapPictogramBrandColor {
+  color: #007CC0;
+}
+.sapTabIconBrandColor {
+  color: #444444;
+}
+.sapTabIconDarkColor {
+  color: #444444;
+}
+.sapTabIconLightColor {
+  color: #444444;
+}
+.sapTabIconBorderColor {
+  color: #444444;
+}
+.sapWindowBorderColorActive {
+  color: #007CC0;
+}
+.sapWindowBorderColorInactive {
+  color: #005A8C;
+}
+
+/**
+* Base.baseLib.alliandertheme.custom
+* 10.30.1.236911.0
+*/
+
+
+/**
+* Base.baseLib.alliandertheme.base
+* 10.30.1.236911.0
+*/
+
+
+/**
+* NWBC.baseLib.alliandertheme.common
+* 3.6.25.44.0
+*/
+
+
+/**
+* NWBC.baseLib.alliandertheme.shellDesktop
+* 3.6.25.44.0
+*/
+

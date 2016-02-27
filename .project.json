@@ -1,0 +1,366 @@
+{
+  "generation": [
+    {
+      "templateId": "ui5template.basicSAPUI5ApplicationComponent",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Thu, 22 Oct 2015 12:26:27 GMT"
+    },
+    {
+      "templateId": "ui5template.emptyMobileProjectKapsel",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Mon, 02 Mar 2015 21:05:04 GMT"
+    }
+  ],
+  "hcpdeploy": {
+    "account": "s0013987622trial",
+    "name": "osp",
+    "lastVersionWeTriedToDeploy": "1.0.5"
+  },
+  "hybrid": {
+    "appname": "OSP",
+    "appid": "com.alliander.OSP",
+    "appdesc": "Grijpmateriaal App",
+    "appversion": "0.0.1",
+    "debugMode": false,
+    "appIcon": {
+      "defaultIcon": "res/1446063066_todo-list.png",
+      "ios": {
+        "ios8Iphone": "",
+        "ios7Iphone": "",
+        "ios7Ipad": "",
+        "ios61Iphone": "",
+        "ios61Ipad": ""
+      },
+      "android": {
+        "ldpi": "",
+        "mdpi": "",
+        "hdpi": "",
+        "xhdpi": ""
+      }
+    },
+    "appSplash": {
+      "enable": true,
+      "defaultSplash": "",
+      "useDefault": true,
+      "delayTime": "1000",
+      "ios": {
+        "iphone": "",
+        "iphone2x": "",
+        "portIpad": "",
+        "portIpad2x": "",
+        "landIpad": "",
+        "landIpad2x": "",
+        "iphone52x": "",
+        "iphone6": "",
+        "iphone6plus": ""
+      },
+      "android": {
+        "landhdpi": "",
+        "porthdpi": "",
+        "landldpi": "",
+        "portldpi": "",
+        "landmdpi": "",
+        "portmdpi": "",
+        "landxhdpi": "",
+        "portxhdpi": ""
+      }
+    },
+    "localBuild": {
+      "useCustomLib": false,
+      "customLibFile": ""
+    },
+    "cloudBuild": {
+      "selected": null,
+      "buildType": "fioriClient",
+      "androidSigning": "",
+      "iosSigning": "",
+      "fioriClient": {
+        "launchUrl": "",
+        "defaultIconData": "data:image/png;base64,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",
+        "defaultSplashData": ""
+      }
+    },
+    "msType": 0,
+    "server": "",
+    "port": "",
+    "hcpmsServer": "hcpms-s0013987622trial.hanatrial.ondemand.com",
+    "hybridRevision": "1",
+    "platform": {
+      "ios": {
+        "selected": false,
+        "preferences": {
+          "Fullscreen": false,
+          "Orientation": "default",
+          "EnableViewportScale": false,
+          "UrlScheme": ""
+        }
+      },
+      "android": {
+        "selected": true,
+        "preferences": {
+          "Fullscreen": false,
+          "Orientation": "default",
+          "ShowTitle": false,
+          "LogLevel": "VERBOSE",
+          "LoadUrlTimeout": "20000",
+          "UrlScheme": ""
+        }
+      },
+      "windows": {
+        "selected": false,
+        "preferences": {
+          "Fullscreen": false,
+          "Orientation": "",
+          "ShowTitle": false,
+          "LogLevel": ""
+        }
+      }
+    },
+    "plugins": {
+      "cordova": {
+        "device": {
+          "selected": false,
+          "registry": "cordova-plugin-device",
+          "localBuild": true,
+          "fioriClient": true
+        },
+        "network": {
+          "selected": false,
+          "registry": "cordova-plugin-network-information",
+          "localBuild": true,
+          "fioriClient": true
+        },
+        "battery": {
+          "selected": false,
+          "registry": "cordova-plugin-battery-status",
+          "localBuild": true,
+          "fioriClient": false
+        },
+        "accelerometer": {
+          "selected": false,
+          "registry": "cordova-plugin-device-motion",
+          "localBuild": true,
+          "fioriClient": false
+        },
+        "comprass": {
+          "selected": false,
+          "registry": "cordova-plugin-device-orientation",
+          "localBuild": true,
+          "fioriClient": false
+        },
+        "geolocation": {
+          "selected": false,
+          "registry": "cordova-plugin-geolocation",
+          "localBuild": true,
+          "fioriClient": true
+        },
+        "camera": {
+          "selected": false,
+          "registry": "cordova-plugin-camera",
+          "localBuild": true,
+          "fioriClient": true
+        },
+        "capture": {
+          "selected": false,
+          "registry": "cordova-plugin-media-capture",
+          "localBuild": true,
+          "fioriClient": true
+        },
+        "media": {
+          "selected": false,
+          "registry": "cordova-plugin-media",
+          "localBuild": true,
+          "fioriClient": true
+        },
+        "file": {
+          "selected": true,
+          "registry": "cordova-plugin-file",
+          "localBuild": true,
+          "fioriClient": true
+        },
+        "transfer": {
+          "selected": true,
+          "registry": "cordova-plugin-file-transfer",
+          "localBuild": true,
+          "fioriClient": false
+        },
+        "dialogs": {
+          "selected": false,
+          "registry": "cordova-plugin-dialogs",
+          "localBuild": true,
+          "fioriClient": false
+        },
+        "vibration": {
+          "selected": false,
+          "registry": "cordova-plugin-vibration",
+          "localBuild": true,
+          "fioriClient": false
+        },
+        "contacts": {
+          "selected": false,
+          "registry": "cordova-plugin-contacts",
+          "localBuild": true,
+          "fioriClient": true
+        },
+        "globalization": {
+          "selected": false,
+          "registry": "cordova-plugin-globalization",
+          "localBuild": true,
+          "fioriClient": false
+        },
+        "splashscreen": {
+          "selected": false,
+          "registry": "cordova-plugin-splashscreen",
+          "localBuild": true,
+          "fioriClient": true
+        },
+        "inappbrowser": {
+          "selected": false,
+          "registry": "cordova-plugin-inappbrowser",
+          "localBuild": true,
+          "fioriClient": false
+        },
+        "console": {
+          "selected": false,
+          "registry": "cordova-plugin-console",
+          "localBuild": true,
+          "fioriClient": false
+        },
+        "statusbar": {
+          "selected": false,
+          "registry": "cordova-plugin-statusbar",
+          "localBuild": false,
+          "fioriClient": true
+        }
+      },
+      "kapsel": {
+        "logon": {
+          "selected": false,
+          "registry": "kapsel-plugin-logon",
+          "localBuild": true,
+          "fioriClient": false
+        },
+        "appupdate": {
+          "selected": false,
+          "registry": "kapsel-plugin-appupdate",
+          "localBuild": true,
+          "fioriClient": false
+        },
+        "logger": {
+          "selected": false,
+          "registry": "kapsel-plugin-logger",
+          "localBuild": true,
+          "fioriClient": false
+        },
+        "settings": {
+          "selected": false,
+          "registry": "kapsel-plugin-settings",
+          "localBuild": true,
+          "fioriClient": false
+        },
+        "push": {
+          "selected": false,
+          "registry": "kapsel-plugin-push",
+          "localBuild": true,
+          "fioriClient": false
+        },
+        "encryptedstorage": {
+          "selected": false,
+          "registry": "kapsel-plugin-encryptedstorage",
+          "localBuild": true,
+          "fioriClient": true
+        },
+        "authproxy": {
+          "selected": false,
+          "registry": "kapsel-plugin-authproxy",
+          "localBuild": true,
+          "fioriClient": false
+        },
+        "barcode": {
+          "selected": true,
+          "registry": "kapsel-plugin-barcodescanner",
+          "localBuild": true,
+          "fioriClient": true
+        },
+        "odata": {
+          "selected": false,
+          "registry": "kapsel-plugin-odata",
+          "localBuild": true,
+          "fioriClient": false
+        },
+        "e2etrace": {
+          "selected": false,
+          "registry": "kapsel-plugin-e2etrace",
+          "localBuild": true,
+          "fioriClient": false
+        },
+        "calendar": {
+          "selected": false,
+          "registry": "nl.x-services.plugins.calendar",
+          "localBuild": true,
+          "fioriClient": true
+        },
+        "voicerecord": {
+          "selected": false,
+          "registry": "kapsel-plugin-voicerecording",
+          "localBuild": true,
+          "fioriClient": true
+        },
+        "inappmsg": {
+          "selected": false,
+          "registry": "kapsel-plugin-inappmsg",
+          "localBuild": false,
+          "fioriClient": false
+        },
+        "apppreferences": {
+          "selected": false,
+          "registry": "kapsel-plugin-apppreferences",
+          "localBuild": false,
+          "fioriClient": true
+        },
+        "attachmentviewer": {
+          "selected": false,
+          "registry": "kapsel-plugin-attachmentviewer",
+          "localBuild": false,
+          "fioriClient": true
+        },
+        "cachemanager": {
+          "selected": false,
+          "registry": "kapsel-plugin-cachemanager",
+          "localBuild": false,
+          "fioriClient": true
+        },
+        "printer": {
+          "selected": false,
+          "registry": "kapsel-plugin-print",
+          "localBuild": false,
+          "fioriClient": true
+        },
+        "onlineapps": {
+          "selected": false,
+          "registry": "kapsel-plugin-online",
+          "localBuild": false,
+          "fioriClient": true
+        },
+        "toolbar": {
+          "selected": false,
+          "registry": "kapsel-plugin-toolbar",
+          "localBuild": false,
+          "fioriClient": true
+        }
+      },
+      "custom": {}
+    }
+  },
+  "projectType": [
+    "sap.watt.uitools.ide.fiori",
+    "sap.watt.uitools.ide.web"
+  ],
+  "translation": {
+    "translationDomain": "",
+    "supportedLanguages": "",
+    "defaultLanguage": "",
+    "defaultI18NPropertyFile": "",
+    "resourceModelName": ""
+  }
+}

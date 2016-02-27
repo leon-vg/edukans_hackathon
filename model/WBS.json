@@ -1,0 +1,21 @@
+{
+	"IS" : 
+	[
+		{
+			"WBS": "0400",
+			"Beschrijving": "Onderhoud E"
+		},
+		{
+			"WBS": "0410",
+			"Beschrijving": "Storingen E"
+		},
+		{
+			"WBS": "0440",
+			"Beschrijving": "Onderhoud G"
+		},
+		{
+			"WBS": "0450",
+			"Beschrijving": "Storingen G"
+		}
+	]
+}

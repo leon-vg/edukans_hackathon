@@ -1,0 +1,4 @@
+<core:View controllerName="edukans.controller.Main" displayBlock="true" height="100%" xmlns:core="sap.ui.core" xmlns="sap.m">
+	<BusyIndicator visible="false" class="busy" id="busy"></BusyIndicator>
+	<App id="app"></App>
+</core:View>

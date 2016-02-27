@@ -1,0 +1,27 @@
+<mvc:View controllerName="edukans.controller.Login" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:f="sap.ui.layout.form">
+		<Page title="Edukans schoenmaatjes" class="sapUiContentPadding">
+			<content>
+				<l:Grid defaultSpan="L12 M12 S12">
+					<CustomListItem class="formItem">
+						<Label text="E-mailadres"></Label>
+						<Input></Input>
+					</CustomListItem>
+					<CustomListItem class="formItem">
+						<Label text="Je wachtwoord"></Label>
+						<Input></Input>
+					</CustomListItem>
+				</l:Grid>
+			</content>
+			<footer>
+				<Bar>
+					<contentRight>
+						<Button 
+							icon="sap-icon://accept" 
+							text="Inloggen" 
+							press="onSend"
+							type="Accept" />
+					</contentRight>
+				</Bar>
+			</footer>
+		</Page>
+</mvc:View>

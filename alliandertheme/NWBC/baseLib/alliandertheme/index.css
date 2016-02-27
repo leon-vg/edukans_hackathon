@@ -1,0 +1,545 @@
+/**
+* Copyright (c) 2013 SAP AG, All Rights Reserved
+*
+* Theming Engine 1.11.0
+* data:{"Path": "NWBC.baseLib.alliandertheme.index", "PathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css", "IECssRuleLimitFiles": [], "Version": { "Build":"3.6.25.44.20151218155445", "Source": "3.6.25.44.0", "Engine": "1.11.0"}}
+*/
+
+.sapThemeMetaData-NWBC-baseLib{background-image: url('data:text/plain;utf-8,{"Path": "NWBC.baseLib.alliandertheme.index", "PathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css", "IECssRuleLimitFiles": [], "Version": { "Build":"3.6.25.44.20151218155445", "Source": "3.6.25.44.0", "Engine": "1.11.0"}}');}
+
+/**
+* Base.baseLib.baseTheme.base
+* 10.30.1.236911.0
+*/
+
+
+/**
+* NWBC.baseLib.baseTheme.common
+* 3.6.25.44.0
+*/
+
+.nwbc-branding-image-div {
+  width: 68px;
+  height: 33px;
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-image: url('../../../Base/baseLib/alliandertheme/img/misc/sapCompanyLogo.png');
+}
+
+/**
+* NWBC.baseLib.baseTheme.index
+* 3.6.25.44.0
+*/
+
+html {
+  scrollbar-3dlight-color: #f8f8f8;
+  scrollbar-arrow-color: #666;
+  scrollbar-base-color: transparent;
+  scrollbar-darkshadow-color: #f8f8f8;
+  scrollbar-face-color: #e6e6e6;
+  scrollbar-highlight-color: #e6e6e6;
+  scrollbar-shadow-color: #e6e6e6;
+  scrollbar-track-color: #f8f8f8;
+}
+body {
+  margin: 0px;
+}
+.index-local {
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f8f8f8;
+  background-image: none;
+  background-attachment: fixed;
+  background-size: cover;
+  margin-top: 28px;
+  font-size: 1em;
+}
+#configArea {
+  margin: 20px;
+}
+.index-welcome {
+  font-size: 1.25em;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 108px;
+  margin-bottom: 51px;
+  color: #000;
+}
+html[dir=rtl] .index-welcome {
+  margin-right: 20px;
+  margin-left: 108px;
+}
+.nwbc-branding-image {
+  position: absolute;
+  right: 28px;
+  top: 33px;
+  border: none;
+  text-decoration: none;
+}
+.nwbc-branding-image-img {
+  text-decoration: none;
+}
+.nwbc-branding-link-image {
+  border: none;
+}
+html[dir=rtl] .nwbc-branding-image {
+  right: auto;
+  left: 28px;
+}
+html[dir=rtl] .nwbc-branding-image-img {
+  right: auto;
+  left: 28px;
+}
+.nwbc-WorkCenterHeader {
+  color: #000;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 0px;
+  margin-right: 20px;
+  padding: 2px 2px 2px 2px;
+  border-style: solid;
+  border-width: 1px;
+  position: relative;
+  min-height: 70px;
+  background-color: rgba(233,245,247, 0.95);
+  border-color: white;
+}
+.nwbc-WorkCenterIcon {
+  position: absolute;
+  left: 12px;
+  top: 12px;
+}
+.nwbc-WorkCenterTitle {
+  font-size: 1.13em;
+  font-weight: bold;
+  padding-top: 11px;
+  padding-left: 74px;
+  padding-bottom: 3px;
+  padding-right: 15px;
+  margin: 0;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.nwbc-WorkCenterTitleQuickLinkParagraph {
+  font-size: 1.13em;
+  font-weight: bold;
+  padding-top: 11px;
+  padding-left: 74px;
+  padding-bottom: 3px;
+  padding-right: 15px;
+  margin: 0;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  cursor: pointer;
+}
+.nwbc-WorkCenterTitleQuickLink {
+  margin-top: 11px;
+  margin-bottom: 3px;
+}
+.nwbc-WorkCenterDescription {
+  font-size: 0.75em;
+  font-weight: normal;
+  padding-top: 0px;
+  padding-left: 74px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  max-width: 640px;
+  margin: 0;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.nwbc-WorkCenterHeader:hover {
+  background-color: rgba(242,248,236,0.95);
+  border-color: white;
+  -moz-background-clip: content-box;
+  -webkit-background-clip: content-box;
+  background-clip: content-box;
+  box-shadow: #FFFFFF 2px 2px inset, #FFFFFF -2px -2px inset;
+}
+.nwbc-WorkCenterTitleQuickLink:hover {
+  text-decoration: underline;
+}
+.nwbc-WorkCenterHeaderSelect {
+  background-color: rgba(242,248,236,0.95);
+  border-color: white;
+  -moz-background-clip: content-box;
+  -webkit-background-clip: content-box;
+  background-clip: content-box;
+  position: relative;
+}
+html[dir=rtl] .nwbc-WorkCenterIcon {
+  right: 12px;
+  left: auto;
+}
+html[dir=rtl] .nwbc-WorkCenterTitle {
+  padding-left: 15px;
+  padding-right: 74px;
+}
+html[dir=rtl] .nwbc-WorkCenterTitleQuickLink {
+  padding-left: 15px;
+  padding-right: 74px;
+}
+html[dir=rtl] .nwbc-WorkCenterDescription {
+  padding-left: 15px;
+  padding-right: 74px;
+}
+.nwbc-HierarchicalBrowser {
+  scrollbar-3dlight-color: #f8f8f8;
+  scrollbar-arrow-color: #666;
+  scrollbar-base-color: transparent;
+  scrollbar-darkshadow-color: #f8f8f8;
+  scrollbar-face-color: #e6e6e6;
+  scrollbar-highlight-color: #e6e6e6;
+  scrollbar-shadow-color: #e6e6e6;
+  scrollbar-track-color: #f8f8f8;
+  border-style: solid;
+  border-width: 0px 1px 1px 1px;
+  margin: 0px 20px 10px 20px;
+  position: relative;
+  overflow: visible;
+  border-color: #fff;
+  background-color: rgba(255, 255, 255, .95);
+}
+.nwbc-HierarchicalBrowserArea {
+  overflow-y: hidden;
+  position: relative;
+}
+.nwbc-HierarchicalBrowserScrollArea {
+  overflow-y: hidden;
+}
+.nwbc-HierarchicalBrowserSlide {
+  border-width: 1px;
+}
+.nwbc-HierarchicalBrowserSlideOwn {
+  border-width: 0px 1px 1px 1px;
+}
+.nwbc-HierarchicalBrowserFolder {
+  border-style: none;
+  padding: 0px;
+  margin: 0px 3px 0px 0px;
+  position: absolute;
+  top: 0px;
+  border-right: 1px solid #fff;
+  box-shadow: 1px 0px 0px #e3e3e3, 2px 0px 0px #ebebeb, 3px 0px 0px#f8f8f8;
+}
+html[dir=rtl] .nwbc-HierarchicalBrowserFolder {
+  border-style: none;
+  border-left: 1px solid #fff;
+  box-shadow: -1px 0px 0px #e3e3e3, -2px 0px 0px #ebebeb, -3px 0px 0px#f8f8f8;
+}
+.nwbc-HierarchicalBrowserFolderTitle {
+  font-weight: bold;
+  font-size: 1em;
+  margin: 15px 15px 3px 15px;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.nwbc-HierarchicalBrowserFolderDescription {
+  font-size: 0.75em;
+  margin: 0px 15px;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.nwbc-HierarchicalBrowserFolderItems {
+  list-style-type: none;
+  padding-left: 0px;
+  margin: 8px 0px 13px 0px;
+}
+html[dir=rtl] .nwbc-HierarchicalBrowserFolderItems {
+  padding-right: 0px;
+}
+.nwbc-HierarchicalBrowserFolderItems a:link,
+.nwbc-HierarchicalBrowserFolderItems a:visited {
+  text-decoration: none;
+  color: #7DB43C;
+}
+.nwbc-HierarchicalBrowserFolderItem {
+  font-size: 0.75em;
+  padding: 5px 15px 5px 17px;
+  margin: 2px 0px 2px -2px;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+html[dir=rtl] .nwbc-HierarchicalBrowserFolderItem {
+  padding: 5px 17px 5px 15px;
+  margin: 2px -2px 2px 0px;
+}
+.nwbc-HierarchicalBrowserFolderItem:hover,
+.nwbc-HierarchicalBrowserFolderFolder:hover,
+.nwbc-HierarchicalBrowserFolderItem:hover a:link,
+.nwbc-HierarchicalBrowserFolderItem:hover a:visited {
+  background-color: #7DB43C;
+  color: #fff;
+}
+.nwbc-HierarchicalBrowserFolderItem:hover a:link,
+.nwbc-HierarchicalBrowserFolderItem:hover a:visited {
+  text-decoration: underline;
+}
+.nwbc-HierarchicalBrowserFolderItemDisabled {
+  font-size: 0.75em;
+  padding: 5px 15px 5px 17px;
+  margin: 2px 0px 2px -2px;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: #c8c8c8;
+}
+.nwbc-HierarchicalBrowserFolderItemDisabled:hover {
+  background-color: transparent;
+  color: #c8c8c8;
+}
+.nwbc-HierarchicalBrowserFolderFolderSelect {
+  background-color: #7DB43C;
+  color: #fff;
+}
+.nwbc-HierarchicalBrowserFolderFolder {
+  font-size: 0.75em;
+  padding: 5px 25px 5px 17px;
+  margin: 2px 0px 2px -2px;
+  position: relative;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+html[dir=rtl] .nwbc-HierarchicalBrowserFolderFolder {
+  padding: 5px 17px 5px 25px;
+  margin: 2px -2px 2px 0px;
+}
+.nwbc-HierarchicalBrowserFolderFolderExpander {
+  position: absolute;
+  right: 15px;
+  width: 5px;
+  bottom: 8px;
+  font-weight: bold;
+  background-image: url('../../../NWBC/baseLib/baseTheme/img/expander.png');
+  height: 8px;
+  text-indent: -9999px;
+}
+html[dir=rtl] .nwbc-HierarchicalBrowserFolderFolderExpander {
+  right: auto;
+  left: 15px;
+  background-image: url('../../../NWBC/baseLib/baseTheme/img-RTL/expander.png');
+}
+.nwbc-HierarchicalBrowserFolderArrow {
+  position: absolute;
+  top: -9px;
+  left: 25px;
+}
+html[dir=rtl] .nwbc-HierarchicalBrowserFolderArrow {
+  left: auto;
+  right: 25px;
+}
+.nwbc-HierarchicalBrowserFolderFirst .nwbc-HierarchicalBrowserFolderFolder,
+.nwbc-HierarchicalBrowserFolderFirst .nwbc-HierarchicalBrowserFolderItem {
+  margin-left: 0px;
+}
+.nwbc-HierarchicalBrowserFolderFirst .nwbc-HierarchicalBrowserFolderTitle {
+  margin-left: 17px;
+}
+.nwbc-HierarchicalBrowserFolderFolder:hover .nwbc-HierarchicalBrowserFolderFolderExpander,
+.nwbc-HierarchicalBrowserFolderFolderSelect .nwbc-HierarchicalBrowserFolderFolderExpander {
+  background-image: url('../../../NWBC/baseLib/baseTheme/img/expander-hover.png');
+}
+html[dir=rtl] .nwbc-HierarchicalBrowserFolderFolder:hover .nwbc-HierarchicalBrowserFolderFolderExpander,
+html[dir=rtl] .nwbc-HierarchicalBrowserFolderFolderSelect .nwbc-HierarchicalBrowserFolderFolderExpander {
+  background-image: url('../../../NWBC/baseLib/baseTheme/img-RTL/expander-hover.png');
+}
+
+/**
+* Base.baseLib.sap_bluecrystal.base
+* 10.30.1.236911.0
+*/
+
+
+/**
+* NWBC.baseLib.sap_bluecrystal.common
+* 3.6.25.44.0
+*/
+
+
+/**
+* NWBC.baseLib.sap_bluecrystal.index
+* 3.6.25.44.0
+*/
+
+html {
+  scrollbar-arrow-color: #666666;
+  scrollbar-face-color: white;
+  scrollbar-highlight-color: #cccccc;
+  scrollbar-3dlight-color: #f2f2f2;
+  scrollbar-shadow-color: #cccccc;
+  scrollbar-darkshadow-color: #f2f2f2;
+  scrollbar-track-color: #f2f2f2;
+  -ms-scrollbar-arrow-color: #666666;
+  -ms-scrollbar-face-color: white;
+  -ms-scrollbar-highlight-color: #cccccc;
+  -ms-scrollbar-3dlight-color: #f2f2f2;
+  -ms-scrollbar-shadow-color: #cccccc;
+  -ms-scrollbar-darkshadow-color: #f2f2f2;
+  -ms-scrollbar-track-color: #f2f2f2;
+}
+body {
+  margin: 0px;
+}
+.index-local {
+  color: #000;
+  font-family: Arial,Helvetica,sans-serif;
+  background-color: #2ca9b2;
+  background-image: linear-gradient(to bottom, #2ca9b2 0%, #178299 50%, #1a4c7d 100%);
+  margin-top: 28px;
+  font-size: 100%;
+}
+#configArea {
+  margin: 20px;
+}
+html[dir=rtl] .index-welcome {
+  margin-right: 20px;
+  margin-left: 108px;
+}
+.sapUiBody {
+  background-attachment: fixed;
+  background-size: 1px 100%, cover;
+}
+.nwbc-branding-image {
+  position: absolute;
+  right: 20px;
+  top: 28px;
+  border: none;
+  text-decoration: none;
+}
+.nwbc-branding-image-img {
+  text-decoration: none;
+}
+.nwbc-branding-link-image {
+  border: none;
+}
+html[dir=rtl] .nwbc-branding-image {
+  right: auto;
+  left: 20px;
+}
+html[dir=rtl] .nwbc-branding-image-img {
+  right: auto;
+  left: 20px;
+}
+.nwbc-WorkCenterHeader {
+  color: #000;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 0px;
+  margin-right: 20px;
+  padding: 0px;
+  border-style: none;
+  border-width: 0px;
+  border-radius: 4px 4px 0px 0px;
+  position: relative;
+  min-height: 70px;
+  background-color: rgba(233,245,247, 0.95);
+  border-color: white;
+}
+.nwbc-WorkCenterIcon {
+  position: absolute;
+  left: 12px;
+  top: 12px;
+}
+.nwbc-WorkCenterTitle {
+  font-size: 1.13em;
+  font-weight: bold;
+  padding-top: 11px;
+  padding-left: 74px;
+  padding-bottom: 3px;
+  padding-right: 15px;
+  margin: 0;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  cursor: pointer;
+}
+.nwbc-WorkCenterDescription {
+  font-size: 0.75em;
+  font-weight: normal;
+  padding-top: 0px;
+  padding-left: 74px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  max-width: 640px;
+  margin: 0;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.nwbc-WorkCenterHeader:hover {
+  background-color: rgba(242,248,236,0.95);
+}
+.nwbc-WorkCenterTitle:hover {
+  text-decoration: underline;
+}
+.nwbc-WorkCenterHeaderSelect {
+  background-color: rgba(242,248,236,0.95);
+  position: relative;
+}
+html[dir=rtl] .nwbc-WorkCenterIcon {
+  right: 12px;
+  left: auto;
+}
+html[dir=rtl] .nwbc-WorkCenterTitle {
+  padding-left: 15px;
+  padding-right: 74px;
+}
+html[dir=rtl] .nwbc-WorkCenterDescription {
+  padding-left: 15px;
+  padding-right: 74px;
+}
+.nwbc-HierarchicalBrowser {
+  scrollbar-3dlight-color: #f8f8f8;
+  scrollbar-arrow-color: #666;
+  scrollbar-base-color: transparent;
+  scrollbar-darkshadow-color: #f8f8f8;
+  scrollbar-face-color: #e6e6e6;
+  scrollbar-highlight-color: #e6e6e6;
+  scrollbar-shadow-color: #e6e6e6;
+  scrollbar-track-color: #f8f8f8;
+  border-style: solid;
+  border-width: 0px 1px 1px 1px;
+  margin: 0px 20px 10px 20px;
+  position: relative;
+  overflow: visible;
+  border-color: #fff;
+  background-color: rgba(255, 255, 255, .95);
+}
+
+/**
+* Base.baseLib.alliandertheme.custom
+* 10.30.1.236911.0
+*/
+
+
+/**
+* Base.baseLib.alliandertheme.base
+* 10.30.1.236911.0
+*/
+
+
+/**
+* NWBC.baseLib.alliandertheme.common
+* 3.6.25.44.0
+*/
+
+
+/**
+* NWBC.baseLib.alliandertheme.custom
+* 3.6.25.44.0
+*/
+
+
+/**
+* NWBC.baseLib.alliandertheme.index
+* 3.6.25.44.0
+*/
+

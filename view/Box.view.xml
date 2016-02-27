@@ -1,0 +1,31 @@
+<mvc:View controllerName="edukans.controller.Box" xmlns:core="sap.ui.core" xmlns:vbm="sap.ui.vbm" xmlns:l="sap.ui.layout" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:f="sap.ui.layout.form">
+		<Page title="Edukans schoenmaatjes" class="sapUiContentPadding" navButtonPress="onNavBack" showNavButton="true">
+			<content>
+				<l:Grid defaultSpan="L12 M12 S12">
+					<CustomListItem class="formItem" visible="{= ${foto} ? true : false}">
+						<Image width="100%" src="foto/{foto}"></Image>
+					</CustomListItem>
+					<CustomListItem class="formItem">
+						<vbm:GeoMap 
+							visible="{= ${arrived} ? true : false}" 
+							xmlns:l="sap.ui.layout" 
+							legendVisible="false" 
+							navcontrolVisible="false"
+							initialPosition="8.641568;49.293789;0" 
+							width="100%"
+							scaleVisible="false" 
+							height="200px" 
+							initialZoom="1">
+							<vbm:vos>
+								<vbm:Spots>
+									<vbm:Spot id="SAPSpot" position="8.641568;49.293789;0"
+										labelType="Default" labelText="Default" labelPos="5">
+									</vbm:Spot>
+								</vbm:Spots>
+							</vbm:vos>
+						</vbm:GeoMap>
+					</CustomListItem>
+				</l:Grid>
+			</content>
+		</Page>
+</mvc:View>

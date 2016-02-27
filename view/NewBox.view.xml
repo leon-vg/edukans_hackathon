@@ -1,0 +1,18 @@
+<mvc:View controllerName="edukans.controller.NewBox" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:f="sap.ui.layout.form">
+		<Page title="Edukans schoenmaatjes" class="sapUiContentPadding">
+			<content>
+				<ObjectListItem 
+					type="Active" 
+					press="onSelfie" 
+					class="sapUiLargeMarginBottom sapUiLargeMarginTop" 
+					title="Maak een selfie voor je schoenmaatje" 
+					icon="sap-icon://camera">
+				</ObjectListItem>
+				<ObjectListItem 
+					type="Active" 
+					press="onSkip" 
+					title="Maak later een foto">
+				</ObjectListItem>
+			</content>
+		</Page>
+</mvc:View>

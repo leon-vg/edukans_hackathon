@@ -1,0 +1,24 @@
+/**
+* Copyright (c) 2013 SAP AG, All Rights Reserved
+*
+* Theming Engine 1.11.0
+* data:{"Path": "UI5.sap/ui/generic/template.alliandertheme.library", "PathPattern": "/%frameworkId%/%libId%/themes/%themeId%/%fileId%.css", "IECssRuleLimitFiles": [], "Version": { "Build":"1.32.5.20151218155446", "Source": "1.32.5", "Engine": "1.11.0"}}
+*/
+
+/******************* FILE /Base/baseLib/baseTheme/base.less *******************/
+/******************* FILE /UI5/sap/ui/core/themes/base/global.less *******************/
+
+
+/******************* FILE /UI5/sap/ui/generic/template/themes/base/library.less *******************/
+/******************* FILE /Base/baseLib/sap_bluecrystal/base.less *******************/
+/******************* FILE /UI5/sap/ui/core/themes/sap_bluecrystal/global.less *******************/
+/******************* FILE /UI5/sap/ui/generic/template/themes/sap_bluecrystal/library.less *******************/
+/******************* FILE /Base/baseLib/alliandertheme/custom.less *******************/
+
+
+/******************* FILE /Base/baseLib/alliandertheme/base.less *******************/
+/******************* FILE /UI5/sap/ui/core/themes/alliandertheme/global.less *******************/
+/******************* FILE /UI5/sap/ui/generic/template/themes/alliandertheme/library.less *******************/
+
+
+.sapThemeMetaData-UI5-sap-ui-generic-template{background-image: url('data:text/plain;utf-8,{"Path": "UI5.sap/ui/generic/template.alliandertheme.library", "PathPattern": "/%frameworkId%/%libId%/themes/%themeId%/%fileId%.css", "IECssRuleLimitFiles": [], "Version": { "Build":"1.32.5.20151218155446", "Source": "1.32.5", "Engine": "1.11.0"}}');}

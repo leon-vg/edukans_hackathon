@@ -1,0 +1,33 @@
+<mvc:View controllerName="edukans.controller.BoxForm" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:f="sap.ui.layout.form">
+		<Page title="Edukans schoenmaatjes" class="sapUiContentPadding">
+			<content>
+				<l:Grid defaultSpan="L12 M12 S12">
+					<CustomListItem class="formItem">
+						<Label text="Naam voor je doos"></Label>
+						<Input></Input>
+					</CustomListItem>
+					<CustomListItem class="formItem" visible="{= ${newBox>/foto} ? true : false }">
+						<Label text="Je selfie"></Label>
+						<Image class="formFoto" width="100%" src="data:image/jpeg;base64,{newBox>/foto}" press="onSelfie" />
+					</CustomListItem>
+					<ObjectListItem
+						visible="{= ${newBox>/foto} ? false : true }"
+						type="Active" 
+						press="onSelfie" 
+						title="Maak een selfie voor je schoenmaatje" 
+						icon="sap-icon://camera" />
+				</l:Grid>
+			</content>
+			<footer>
+				<Bar>
+					<contentRight>
+						<Button 
+							icon="sap-icon://accept" 
+							text="Opslaan" 
+							press="onSend"
+							type="Accept" />
+					</contentRight>
+				</Bar>
+			</footer>
+		</Page>
+</mvc:View>

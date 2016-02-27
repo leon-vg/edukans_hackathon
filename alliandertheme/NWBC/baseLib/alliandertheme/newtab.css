@@ -1,0 +1,345 @@
+/**
+* Copyright (c) 2013 SAP AG, All Rights Reserved
+*
+* Theming Engine 1.11.0
+* data:{"Path": "NWBC.baseLib.alliandertheme.newtab", "PathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css", "IECssRuleLimitFiles": [], "Version": { "Build":"3.6.25.44.20151218155445", "Source": "3.6.25.44.0", "Engine": "1.11.0"}}
+*/
+
+.sapThemeMetaData-NWBC-baseLib{background-image: url('data:text/plain;utf-8,{"Path": "NWBC.baseLib.alliandertheme.newtab", "PathPattern": "/%frameworkId%/%libId%/%themeId%/%fileId%.css", "IECssRuleLimitFiles": [], "Version": { "Build":"3.6.25.44.20151218155445", "Source": "3.6.25.44.0", "Engine": "1.11.0"}}');}
+
+/**
+* Base.baseLib.baseTheme.base
+* 10.30.1.236911.0
+*/
+
+
+/**
+* NWBC.baseLib.baseTheme.common
+* 3.6.25.44.0
+*/
+
+.nwbc-branding-image-div {
+  width: 68px;
+  height: 33px;
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-image: url('../../../Base/baseLib/alliandertheme/img/misc/sapCompanyLogo.png');
+}
+
+/**
+* NWBC.baseLib.baseTheme.newtab
+* 3.6.25.44.0
+*/
+
+html {
+  scrollbar-3dlight-color: #f8f8f8;
+  scrollbar-arrow-color: #666;
+  scrollbar-base-color: transparent;
+  scrollbar-darkshadow-color: #f8f8f8;
+  scrollbar-face-color: #e6e6e6;
+  scrollbar-highlight-color: #e6e6e6;
+  scrollbar-shadow-color: #e6e6e6;
+  scrollbar-track-color: #f8f8f8;
+}
+body {
+  margin: 0;
+}
+.newtab-local {
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #2dabb3;
+  background-image: none;
+  background-attachment: fixed;
+  background-size: cover;
+  margin-top: 28px;
+}
+#configArea {
+  margin: 20px;
+}
+.newtab-header {
+  font-size: 1.25em;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 108px;
+  margin-bottom: 30px;
+}
+html[dir=rtl] .newtab-header {
+  margin-right: 20px;
+  margin-left: 108px;
+}
+.nwbc-branding-image {
+  position: absolute;
+  right: 28px;
+  top: 33px;
+  border: none;
+  text-decoration: none;
+}
+.nwbc-branding-image-img {
+  text-decoration: none;
+}
+.nwbc-branding-link-image {
+  border: none;
+}
+html[dir=rtl] .nwbc-branding-image {
+  right: auto;
+  left: 28px;
+}
+html[dir=rtl] .nwbc-branding-image-img {
+  right: auto;
+  left: 28px;
+}
+.newtab-content-left {
+  float: left;
+  width: 50%;
+}
+html[dir=rtl] .newtab-content-left {
+  float: right;
+}
+.verysmall .newtab-content-left,
+html[dir=rtl] .verysmall .newtab-content-left {
+  float: none;
+  width: 100%;
+  margin-top: 50px;
+}
+.newtab-content-right {
+  float: right;
+  width: 50%;
+}
+html[dir=rtl] .newtab-content-right {
+  float: left;
+}
+.verysmall .newtab-content-right,
+html[dir=rtl] .verysmall .newtab-content-right {
+  float: none;
+  width: 100%;
+}
+.newtab-box {
+  color: #000;
+  background-color: rgba(233,245,247, 0.95);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 15px;
+  font-size: 1.13em;
+  position: relative;
+  padding-left: 80px;
+  min-height: 50px;
+}
+html[dir=rtl] .newtab-box {
+  padding-left: 15px;
+  padding-right: 80px;
+}
+.newtab-content-left .newtab-box {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+html[dir=rtl] .newtab-content-left .newtab-box {
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.newtab-content-right .newtab-box {
+  margin-left: 10px;
+  margin-right: 20px;
+}
+html[dir=rtl] .newtab-content-right .newtab-box {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.verysmall .newtab-content-left .newtab-box,
+.verysmall .newtab-content-right .newtab-box,
+html[dir=rtl] .verysmall .newtab-content-left .newtab-box,
+html[dir=rtl] .verysmall .newtab-content-right .newtab-box {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.newtab-icon {
+  position: absolute;
+  left: 15px;
+}
+html[dir=rtl] .newtab-icon {
+  right: 15px;
+  left: auto;
+}
+.newtab-content-header {
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.newtab-list {
+  list-style-type: none;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.newtab-list-div {
+  position: relative;
+  margin: 0px 20px 0px 0px;
+}
+.newtab-list-left {
+  float: left;
+  width: 45%;
+  margin-top: 0px;
+}
+html[dir=rtl] .newtab-list-left {
+  float: right;
+  width: 45%;
+  margin-top: 0px;
+}
+.small .newtab-list-left {
+  float: none;
+  width: 100%;
+}
+html[dir=rtl] .small .newtab-list-left {
+  float: none;
+  width: 100%;
+}
+.newtab-list-right {
+  float: right;
+  width: 45%;
+  margin-top: 0px;
+}
+html[dir=rtl] .newtab-list-right {
+  float: left;
+  width: 45%;
+  margin-top: 0px;
+}
+.small .newtab-list-right {
+  float: none;
+  width: 100%;
+}
+html[dir=rtl] .small .newtab-list-right {
+  float: none;
+  width: 100%;
+}
+.newtab-entry {
+  font-size: .666em;
+  margin-top: 15px;
+  padding-left: 0.9em;
+  text-indent: -0.9em;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+html[dir=rtl] .newtab-entry {
+  font-size: .666em;
+  margin-top: 15px;
+  padding-right: 0.9em;
+  padding-left: 0px;
+  text-indent: -0.9em;
+}
+.newtab-entry:first {
+  margin-top: 0px;
+}
+.newtab-entry:before {
+  content: "\2022\00a0\00a0";
+  color: #c8c8c8;
+}
+.newtab-entry-wc {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eeeeee;
+}
+.newtab-entry-wc-last {
+  border-bottom: none;
+  padding-bottom: 0px;
+}
+.newtab-entry a {
+  color: #7DB43C;
+  text-decoration: none;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.newtab-entry a:hover {
+  text-decoration: underline;
+}
+.newtab-entry-description {
+  margin: 0px;
+  text-indent: 0px;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+html[dir=rtl] .newtab-entry-description {
+  padding-left: 10px;
+  padding-right: 0px;
+}
+.clear {
+  clear: both;
+  visibility: hidden;
+}
+
+/**
+* Base.baseLib.sap_bluecrystal.base
+* 10.30.1.236911.0
+*/
+
+
+/**
+* NWBC.baseLib.sap_bluecrystal.common
+* 3.6.25.44.0
+*/
+
+
+/**
+* NWBC.baseLib.sap_bluecrystal.newtab
+* 3.6.25.44.0
+*/
+
+html {
+  scrollbar-3dlight-color: #f8f8f8;
+  scrollbar-arrow-color: #666;
+  scrollbar-base-color: transparent;
+  scrollbar-darkshadow-color: #f8f8f8;
+  scrollbar-face-color: #e6e6e6;
+  scrollbar-highlight-color: #e6e6e6;
+  scrollbar-shadow-color: #e6e6e6;
+  scrollbar-track-color: #f8f8f8;
+}
+body {
+  margin: 0;
+}
+.sapUiBody {
+  background-attachment: fixed;
+  background-size: 1px 100%, cover;
+  background-repeat: repeat-x;
+}
+.newtab-local {
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #2dabb3;
+  background-image: linear-gradient(to bottom, #2ca9b2 0%, #178299 50%, #1a4c7d 100%);
+  margin-top: 28px;
+  font-size: 100%;
+}
+
+/**
+* Base.baseLib.alliandertheme.custom
+* 10.30.1.236911.0
+*/
+
+
+/**
+* Base.baseLib.alliandertheme.base
+* 10.30.1.236911.0
+*/
+
+
+/**
+* NWBC.baseLib.alliandertheme.common
+* 3.6.25.44.0
+*/
+
+
+/**
+* NWBC.baseLib.alliandertheme.custom
+* 3.6.25.44.0
+*/
+
+
+/**
+* NWBC.baseLib.alliandertheme.newtab
+* 3.6.25.44.0
+*/
+

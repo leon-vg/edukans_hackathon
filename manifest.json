@@ -1,0 +1,92 @@
+{
+	"_version": "1.1.0",
+	"sap.app": {
+		"_version": "1.1.0",
+		"id": "Edukans",
+		"type": "application",
+		"title": "{{appTitle}}",
+		"description": "{{appDescription}}",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"dataSources": {},
+		"ach": "CA-UI5-DOC"
+	},
+	"sap.ui": {
+		"_version": "1.1.0",
+		"technology": "UI5",
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		},
+		"supportedThemes": ["sap_bluecrystal"]
+	},
+	"sap.ui5": {
+		"_version": "1.1.0",
+		"rootView": "edukans.view.Main",
+		"dependencies": {
+			"minUI5Version": "1.30",
+			"libs": {
+				"sap.m": {}
+			}
+		},
+		"models": {},
+		"routing": {
+			"config": {
+				"routerClass": "sap.m.routing.Router",
+				"viewType": "XML",
+				"viewPath": "edukans.view",
+				"controlId": "app",
+				"controlAggregation": "pages",
+				"transition": "slide"
+			},
+			"routes": [{
+				"pattern": "",
+				"name": "Start",
+				"target": "Start"
+			}, {
+				"name": "NewBox",
+				"pattern": "NewBox/{id}",
+				"target": "NewBox"
+			}, {
+				"name": "BoxForm",
+				"pattern": "BoxForm/{id}",
+				"target": "BoxForm"
+			}, {
+				"name": "Login",
+				"pattern": "Login",
+				"target": "Login"
+			}, {
+				"name": "Box",
+				"pattern": "Box/{id}",
+				"target": "Box"
+			}],
+			"targets": {
+				"Start": {
+					"viewName": "Start"
+				},
+				"NewBox": {
+					"viewName": "NewBox"
+				},
+				"BoxForm": {
+					"viewName": "BoxForm"
+				},
+				"Login": {
+					"viewName": "Login"
+				},
+				"Box": {
+					"viewName": "Box"
+				}
+			}
+		},
+		"contentDensities": {
+			"compact": false,
+			"cozy": false
+		}
+	},
+	"sap.platform.hcp": {
+		"uri": "",
+		"_version": "1.1.0"
+	}
+}

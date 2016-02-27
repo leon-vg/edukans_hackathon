@@ -1,0 +1,14 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+	xmlns:core="sap.ui.core"
+	xmlns:commons="sap.suite.ui.commons">
+	<Dialog type="Message" showHeader="false">
+		<content>
+			<Text text="Scan nu de barcode op het formulier dat je van schoenmaatjes hebt gekregen" />
+		</content>
+		<endButton>
+			<Button type="Accept" icon="sap-icon://accept" text="OK" press="onDialogNewBoxConfirm" />
+		</endButton>
+	</Dialog>
+</core:FragmentDefinition>

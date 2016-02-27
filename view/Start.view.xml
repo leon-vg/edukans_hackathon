@@ -1,0 +1,43 @@
+<mvc:View controllerName="edukans.controller.Start" xmlns:core="sap.ui.core" xmlns:vbm="sap.ui.vbm" xmlns:l="sap.ui.layout" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:f="sap.ui.layout.form">
+		<Page title="Edukans schoenmaatjes" class="sapUiContentPadding" showSubHeader="{= ${/user} ? true : false}">
+			<subHeader>
+				<Toolbar>
+					<core:Icon class="sapUiSmallMarginBegin" src="sap-icon://key" />
+					<Title class="sapUiTinyMarginBegin" text="Ingelogd als {/user}" level="H3"></Title>
+				</Toolbar>
+			</subHeader>
+			<content>
+				<List items="{/dozen}" showNoData="false" itemPress="onBoxPress">
+					<CustomListItem class="sapUiSmallMarginBottom formItem"
+						type="Active">
+						<VBox>
+							<HBox class="sapUiTinyMarginBottom">
+								<core:Icon class="formIcon sapMObjLIcon" src="sap-icon://product"></core:Icon>
+								<VBox class="sapUiSmallMarginBegin" width="100%">
+									<Text class="sapMObjLTitle" text="{naam}" />
+									<Text text="{status}" />
+								</VBox>
+							</HBox>
+							<FlexBox class="fotoClipped" visible="{= ${foto} ? true : false}" >
+								<Image width="100%" src="foto/{foto}">
+								</Image>
+							</FlexBox>
+						</VBox>
+					</CustomListItem>
+				</List>
+				<List>
+					<ObjectListItem class="sapUiMediumMarginTop"
+						type="Active" 
+						press="onNewBox" 
+						title="Nieuwe doos" 
+						icon="sap-icon://add-product" />
+					<ObjectListItem class="sapUiMediumMarginTop"
+						visible="{= ${/user} ? false : true}"
+						type="Active" 
+						press="onExistingAccount" 
+						title="Ik heb al een doos opgestuurd" 
+						icon="sap-icon://key" />
+				</List>
+			</content>
+		</Page>
+</mvc:View>
