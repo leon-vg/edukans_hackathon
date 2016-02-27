@@ -40,7 +40,7 @@ sap.ui.define([
 		},
 		
 		onSend: function() {
-			
+			this.getRouter().navTo("Login");
 		}
 		
 	});

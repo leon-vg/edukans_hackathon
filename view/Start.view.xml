@@ -2,10 +2,13 @@
 		<Page title="Edukans schoenmaatjes" class="sapUiContentPadding" showSubHeader="{= ${/user} ? true : false}">
 			<subHeader>
 				<Toolbar>
-					<core:Icon class="sapUiSmallMarginBegin" src="sap-icon://key" />
+					<core:Icon press="onIconHidden2" class="sapUiSmallMarginBegin" src="sap-icon://key" />
 					<Title class="sapUiTinyMarginBegin" text="Ingelogd als {/user}" level="H3"></Title>
 				</Toolbar>
 			</subHeader>
+			<headerContent>
+				<Image press="onIconHidden" height="25px" src="images/edukans.jpg" class="sapUiTinyMarginEnd" />
+			</headerContent>
 			<content>
 				<List items="{/dozen}" showNoData="false" itemPress="onBoxPress">
 					<CustomListItem class="sapUiSmallMarginBottom formItem"

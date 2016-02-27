@@ -39,6 +39,19 @@ sap.ui.define([
 		onBoxPress: function(oEvent) {
 			var sPath = oEvent.getParameter("listItem").getBindingContextPath().substr(7);
 			this.getRouter().navTo("Box", {id: sPath});
+		},
+		
+		onIconHidden: function() {
+			var oModel = this.getView().getModel();
+			oModel.setProperty("/dozen/0/status", "Aangekomen!");
+			oModel.setProperty("/dozen/0/arrived", true);
+			oModel.setProperty("/dozen/0/foto", "image001.jpg");
+		},
+		
+		onIconHidden2: function() {
+			var oModel = this.getView().getModel();
+			oModel.setProperty("/dozen/0/status", "Onderweg naar... Ghana!");
+			oModel.setProperty("/dozen/0/arrived", false);
 		}
 		
 	});

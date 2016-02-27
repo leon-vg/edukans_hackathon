@@ -6,6 +6,10 @@
 						<Label text="Naam voor je doos"></Label>
 						<Input></Input>
 					</CustomListItem>
+					<CustomListItem class="formItem">
+						<Label text="Vul hier nog wat leuks in (als je wilt)"></Label>
+						<Input></Input>
+					</CustomListItem>
 					<CustomListItem class="formItem" visible="{= ${newBox>/foto} ? true : false }">
 						<Label text="Je selfie"></Label>
 						<Image class="formFoto" width="100%" src="data:image/jpeg;base64,{newBox>/foto}" press="onSelfie" />

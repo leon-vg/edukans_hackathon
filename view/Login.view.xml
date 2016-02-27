@@ -2,13 +2,16 @@
 		<Page title="Edukans schoenmaatjes" class="sapUiContentPadding">
 			<content>
 				<l:Grid defaultSpan="L12 M12 S12">
+					<CustomListItem class="formItem" visible="{= ${newBox>/id} ? true : false}">
+						<Text text="Maak een nieuwe account aan, zodat we weten wie je bent" />
+					</CustomListItem>
 					<CustomListItem class="formItem">
 						<Label text="E-mailadres"></Label>
-						<Input></Input>
+						<Input value="chantal@hetnet.nl"></Input>
 					</CustomListItem>
 					<CustomListItem class="formItem">
 						<Label text="Je wachtwoord"></Label>
-						<Input></Input>
+						<Input type="Password"></Input>
 					</CustomListItem>
 				</l:Grid>
 			</content>
@@ -17,7 +20,7 @@
 					<contentRight>
 						<Button 
 							icon="sap-icon://accept" 
-							text="Inloggen" 
+							text="Versturen" 
 							press="onSend"
 							type="Accept" />
 					</contentRight>

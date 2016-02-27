@@ -19,19 +19,12 @@ sap.ui.define([
 			var oRouter = this.getRouter();
 			var oModel = this.getView().getModel();
 			setTimeout(function() {
-				oModel.setProperty("/user", "ingelogde gebruiker");
+				oModel.setProperty("/user", "chantal@hetnet.nl");
 				oModel.setProperty("/dozen", [
 					{
 						id: 1,
 						naam: "Barbiepakket",
 						status: "Onderweg naar bestemming"
-					},
-					{
-						id: 2,
-						naam: "Legopakket",
-						status: "Aangekomen!",
-						arrived: true,
-						foto: "Albanie-06.jpg"
 					}
 				]);
 				oRouter.navTo("Start");
