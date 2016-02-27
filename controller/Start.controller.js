@@ -51,7 +51,9 @@ sap.ui.define([
 		onIconHidden2: function() {
 			var oModel = this.getView().getModel();
 			oModel.setProperty("/dozen/0/status", "Onderweg naar... Ghana!");
+			oModel.setProperty("/dozen/0/underway", true);
 			oModel.setProperty("/dozen/0/arrived", false);
+			oModel.setProperty("/dozen/0/foto", "");
 		}
 		
 	});

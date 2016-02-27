@@ -19,8 +19,8 @@
 						</VBox>
 					</CustomListItem>
 					<CustomListItem class="formItem"
-							visible="{= ${arrived} ? true : false}" >
-						<Text text="Je schoenendoos is in... Ghana!" />
+							visible="{= ${arrived} ? true : false || ${underway} ? true : false}" >
+						<Text visible="{= ${arrived} ? true : false}" text="Je schoenendoos is in... Ghana!" />
 						<vbm:GeoMap
 							xmlns:l="sap.ui.layout" 
 							legendVisible="false" 

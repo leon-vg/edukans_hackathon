@@ -28,6 +28,9 @@ sap.ui.define([
 					}
 				]);
 				oRouter.navTo("Start");
+				MessageToast.show("Je bent ingelogd!", {
+					closeOnBrowserNavigation: false
+				});
 			}, 500);
 		}
 		
